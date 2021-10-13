@@ -5,5 +5,6 @@
         <file>imagenes/save.png</file>
         <file>imagenes/user.png</file>
         <file>imagenes/spaceship.png</file>
+        <file>imagenes/flying_saucer.png</file>
     </qresource>
 </RCC>

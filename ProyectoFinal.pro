@@ -9,11 +9,13 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    enemies.cpp \
     main.cpp \
     mainwindow.cpp \
     player.cpp
 
 HEADERS += \
+    enemies.h \
     mainwindow.h \
     player.h
 
@@ -29,6 +31,7 @@ RESOURCES += \
     images.qrc
 
 DISTFILES += \
+    imagenes/enemie_1.png \
     imagenes/menu.png \
     imagenes/save.png \
     imagenes/user.png
