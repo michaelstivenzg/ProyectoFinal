@@ -58,47 +58,72 @@ void Player::actualizar(double dt_)
 
 void Player::move_yNegativo()
 {
-    setPos(x(),y()-10);
-//    posy=posy-(vy*dt)-(0.5*ay*dt*dt);
-//    if(posy<0){
-//        posy=0;
-//    }
-//    setPos(posx,posy);
+    posy=posy-5;
+    //    posy=posy-(vy*dt)-(0.5*ay*dt*dt);
+    if(posy<0){
+        posy=0;
+    }
+    setPos(posx,posy);
     qDebug()<<posx<<'\t'<<posy<<endl;
 }
 
 void Player::move_yPositivo()
 {
-    setPos(x(),y()+10);
-//    posy=posy+(vy*dt)+(0.5*ay*dt*dt);
-//    if(posy>240){
-//        posy=240;
-//    }
-//    setPos(posx,posy);
+    posy+=5;
+
+    //    posy=posy+(vy*dt)+(0.5*ay*dt*dt);
+    if(posy>235){
+        posy=235;
+    }
+    //    setPos(posx,posy);
+    //    setPos(x(),posy);
+    setPos(posx,posy);
     qDebug()<<posx<<'\t'<<posy<<endl;
 }
 
 void Player::move_xNegativo()
 {
-    setPos(x()-10,y());
-//    posx=posx+(vx*dt)+(0.5*ax*dt*dt);
-//    if(posx<0.5){
-//        posx=0.5;
-//    }
-//    setPos(posx,posy);
+    posx=posx-5;
+    //    setPos(posx,posy);
+    //    posx=posx+(vx*dt)+(0.5*ax*dt*dt);
+    if(posx<0.5){
+        posx=0.5;
+    }
+    setPos(posx,posy);
     qDebug()<<posx<<'\t'<<posy<<endl;
 }
 
 
 void Player::move_xPositivo()
 {
-    setPos(x()+10,y());
-//    posx=posx-(vx*dt)-(0.5*ax*dt*dt);
-//    if(posx>458){
-//        posx=458;
-//    }
-//    setPos(posx,posy);
-    qDebug()<<posx<<'\t'<<posy<<endl;
+    posx+=5;
+
+    //    posx=posx-(vx*dt)-(0.5*ax*dt*dt);
+    if(posx>458){
+        posx=458;
+    }
+    setPos(posx,posy);
+    qDebug()<<"x="<<posx<<'\t'<<posy<<"posy"<<endl;
+}
+
+float Player::getPosx() const
+{
+    return posx;
+}
+
+void Player::setPosx(float value)
+{
+    posx = value;
+}
+
+float Player::getPosy() const
+{
+    return posy;
+}
+
+void Player::setPosy(float value)
+{
+    posy = value;
 }
 
 

@@ -36,8 +36,14 @@ public:
     void move_xNegativo();
     void move_xPositivo();
 
+    float getPosx() const;
+    void setPosx(float value);
+
+    float getPosy() const;
+    void setPosy(float value);
+
 private:
-    float posx=0, posy=0,radio;
+    float posx=450, posy=370,radio;
     float masa;
     float vx;                       //velocidad en X
     float vy;                       //velocidad en Y

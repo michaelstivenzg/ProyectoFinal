@@ -13,8 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
     scene->setBackgroundBrush(QPixmap(":/imagenes/FondoCampo.jpg"));
     ui->progressBar_2->setRange(0,100);//barra que da la informacion de las municiones
     ui->progressBar->setRange(0,100);//barra que da la informacion de la cantida de vida
-    lead=new Player(45,450,370);
-    scene->addItem(lead);
+    lead=new Player(45,0,0);
+    scene->addItem(lead);    
     for(int i =0;i<2;i++){
         enemies.push_back(new Enemies(100,rand()%1000,10));
         scene->addItem(enemies.at(i));
@@ -35,7 +35,7 @@ MainWindow::~MainWindow()
 void MainWindow::update()
 {
     enemies.at(1)->position();
-    enemies.at(0)->position_2();
+    enemies.at(0)->position_2();   
 }
 
 void MainWindow::keyPressEvent(QKeyEvent *event)
@@ -54,4 +54,3 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     }
 
 }
-
