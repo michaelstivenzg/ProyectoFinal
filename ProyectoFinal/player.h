@@ -15,10 +15,19 @@
 #include <time.h>
 #include <math.h>
 #include <QtDebug>
+#include <QMessageBox>
+#include <iostream>
+#include <fstream>
+#include "vida.h"
 #include "enemies.h"
+#include "bullet.h"
+#include "login.h"
+#include "string"
 #define PI 3.14159265358979323846264338
 #define G 10
-#define dt 0.2
+#define dt 0.1
+
+using namespace std;
 
 class Player: public QGraphicsItem,public QObject
 {
@@ -36,8 +45,14 @@ public:
     void move_xNegativo();
     void move_xPositivo();
 
+    float getPosx() const;
+    void setPosx(float value);
+
+    float getPosy() const;
+    void setPosy(float value);
+
 private:
-    float posx=0, posy=0,radio;
+    float posx=450, posy=370,radio;
     float masa;
     float vx;                       //velocidad en X
     float vy;                       //velocidad en Y
@@ -48,3 +63,4 @@ private:
 };
 
 #endif // PLAYER_H
+
