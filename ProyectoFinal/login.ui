@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="images.qrc">
-    <normaloff>:/imagenes/fondo.png</normaloff>:/imagenes/fondo.png</iconset>
+    <normaloff>:/imagenes/cambio de usuario.png</normaloff>:/imagenes/cambio de usuario.png</iconset>
   </property>
   <widget class="QGraphicsView" name="graphicsView">
    <property name="geometry">

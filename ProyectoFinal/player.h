@@ -18,6 +18,9 @@
 #include <QMessageBox>
 #include <iostream>
 #include <fstream>
+#include "ayuda.h"
+#include "enemies2.h"
+#include "municion.h"
 #include "vida.h"
 #include "enemies.h"
 #include "bullet.h"
@@ -26,6 +29,7 @@
 #define PI 3.14159265358979323846264338
 #define G 10
 #define dt 0.1
+#define Ti 2
 
 using namespace std;
 

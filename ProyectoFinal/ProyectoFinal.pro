@@ -9,19 +9,25 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ayuda.cpp \
     bullet.cpp \
     enemies.cpp \
+    enemies2.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp \
+    municion.cpp \
     player.cpp \
     vida.cpp
 
 HEADERS += \
+    ayuda.h \
     bullet.h \
     enemies.h \
+    enemies2.h \
     login.h \
     mainwindow.h \
+    municion.h \
     player.h \
     vida.h
 
@@ -36,9 +42,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     images.qrc
-
-DISTFILES += \
-    imagenes/enemie_1.png \
-    imagenes/menu.png \
-    imagenes/save.png \
-    imagenes/user.png

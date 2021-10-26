@@ -1,21 +1,48 @@
 <RCC>
     <qresource prefix="/">
-        <file>imagenes/FondoCampo.jpg</file>
-        <file>imagenes/menu.png</file>
-        <file>imagenes/save.png</file>
-        <file>imagenes/user.png</file>
-        <file>imagenes/spaceship.png</file>
-        <file>imagenes/flying_saucer.png</file>
         <file>imagenes/army_military_war_weapon_navy_aviation_sniper__gun.png</file>
+        <file>imagenes/ayuda.png</file>
+        <file>imagenes/bala.png</file>
         <file>imagenes/bullet.png</file>
-        <file>imagenes/iconfinder_media-pause_216309.png</file>
+        <file>imagenes/cambio de usuario.png</file>
+        <file>imagenes/enemigapng.png</file>
+        <file>imagenes/enemigo.png</file>
+        <file>imagenes/entrar.png</file>
+        <file>imagenes/flying_saucer.png</file>
+        <file>imagenes/flying_saucer_by_absurdwordpreferred.png</file>
+        <file>imagenes/fondo menu.jpg</file>
+        <file>imagenes/fondo.png</file>
+        <file>imagenes/fondo_view.jpg</file>
+        <file>imagenes/fondo123.jpg</file>
+        <file>imagenes/FondoCampo.jpg</file>
         <file>imagenes/FondoLogin.jpg</file>
+        <file>imagenes/FondoMenu.jpg</file>
+        <file>imagenes/fuego.png</file>
+        <file>imagenes/iconfinder_enter_214651.png</file>
         <file>imagenes/iconfinder_golden star.png</file>
         <file>imagenes/iconfinder_icon-play_211876.png</file>
-        <file>imagenes/ship_enemie.png</file>
-        <file>imagenes/salir.png</file>
-        <file>imagenes/entrar.png</file>
-        <file>imagenes/fondo.png</file>
+        <file>imagenes/iconfinder_kspaceduel_18075.png</file>
+        <file>imagenes/iconfinder_media-pause_216309.png</file>
+        <file>imagenes/iconfinder_Silver_Fern_71214.png</file>
         <file>imagenes/jugador1.png</file>
+        <file>imagenes/lallama.png</file>
+        <file>imagenes/llama1.jpg</file>
+        <file>imagenes/login.png</file>
+        <file>imagenes/menu.png</file>
+        <file>imagenes/nave espacial.jpg</file>
+        <file>imagenes/nave icono.jpg</file>
+        <file>imagenes/Nave.png</file>
+        <file>imagenes/nuevo.png</file>
+        <file>imagenes/pregunta.png</file>
+        <file>imagenes/salir.png</file>
+        <file>imagenes/save.png</file>
+        <file>imagenes/ship_enemie.png</file>
+        <file>imagenes/spaceship.png</file>
+        <file>imagenes/ufo-spaceship.png</file>
+        <file>imagenes/user.png</file>
+        <file>imagenes/upload.png</file>
+        <file>imagenes/star queen.png</file>
+        <file>imagenes/fuego1.png</file>
+        <file>imagenes/MOON.png</file>
     </qresource>
 </RCC>

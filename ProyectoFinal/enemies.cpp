@@ -28,8 +28,7 @@ void Enemies::position()
 {
     setPos(x()+120,amplitud*sin(x()+0.000000000001));
     if(x()>1800){
-       setPos(-600,500);
-       //setPos(x()+120,amplitud*sin(x()+0.000000000001));
+       setPos(-600,500);       
     }
 }
 
@@ -41,4 +40,5 @@ void Enemies::position_2()
        setPos(x()+120,amplitud*sin(x()+0.000000000001));
     }
 }
+
 
