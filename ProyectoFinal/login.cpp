@@ -86,4 +86,10 @@ void Login::on_pushButton_exit_clicked()
     close();
 }
 
-
+void Login::on_pushButton_clicked()
+{
+    Multiplayer * puerta;
+    puerta=new Multiplayer;
+    puerta->show();
+    close();
+}

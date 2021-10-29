@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "player.h"
+//#include "multijugador.h"
 namespace Ui {
 class Login;
 }
@@ -22,6 +23,8 @@ private slots:
     void on_pushButton_enter_2_clicked();
 
     void on_pushButton_exit_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::Login *ui;
